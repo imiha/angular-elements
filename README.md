@@ -11,7 +11,10 @@ In app.module:
   - uncomment line:
   ngDoBootstrap() {}
 Build the app (see here above).
-In GitBash go to the app folder (~/angular-element) and run command "./custombuild.sh", then command "npx live-server preview"
+In GitBash:
+- go to the app folder (~/angular-element)
+- run command "./custombuild.sh"
+- run command "npx live-server preview"
 
 
 # the tutorial used for this app:
