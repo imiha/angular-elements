@@ -1,3 +1,24 @@
+# to build the app:
+npm run build
+
+# to run the angular app:
+ng serve --open
+
+# to compile and serve as a standalone web component:
+In app.module:
+  - comment line 
+  bootstrap: [AppComponent]
+  - uncomment line:
+  ngDoBootstrap() {}
+Build the app (see here above).
+In GitBash go to the app folder (~/angular-element) and run command "./custombuild.sh", then command "npx live-server preview"
+
+
+# the tutorial used for this app:
+https://blog.bitsrc.io/using-angular-elements-why-and-how-part-1-35f7fd4f0457
+
+
+
 # AngularElements
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.

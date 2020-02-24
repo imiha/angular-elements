@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-elements';
+
+  loadAndShowWebComponent() {
+    const hello = document.getElementById('hello');
+    hello.innerHTML = `
+    <p>The web component:</p>
+    <app-hello-world-custom></app-hello-world-custom>`;
+  }
 }
